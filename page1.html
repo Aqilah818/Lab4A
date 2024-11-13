@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Change content from HTML to CSS</title>
+    <style>
+      body {
+        background-color: darkblue;
+        color: white;
+        font-family: Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="myElement">
+      <p id="myParagraph">Welcome to my website!</p>
+    </div>
+    <script>
+      document.getElementById("myParagraph").textContent = "Hello there!";
+    </script>
+  </body>
+</html>
